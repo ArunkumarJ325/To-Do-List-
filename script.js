@@ -39,6 +39,7 @@
   function removeItemFromArray(id) {
     Display= Display.filter(item => item.itemId !== id);
     console.log(Display);
+    
   }
   
 })();
