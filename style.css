@@ -35,7 +35,7 @@
 body{
     background:url("https://imgs.search.brave.com/nErQDtY-CRq_ovy1tNUaBK5pNkiSIaa8yPO98xQGEAg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQw/NTU4NDY0Ny9waG90/by90by1kby1saXN0/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz05czBrUFdocDUy/TW1TODBweW5tZ1Zv/VjU4OTh6ejYxb0xY/MzBoUTViUjQ4PQ");
     background-size:cover;
-    background-repeat: repeat-x;
+    background-repeat:   repeat-x;
 }  
 
 #headin_title{
