@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:15%;
+    border-radius: 40px;
+    border: solid none 4px;
+    background-color: #f3e8d7;
+    padding-bottom: 30px;
+    opacity: 0.65;
+    
+}
+.form_div{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    position: relative;
+    top: -20px;
+    
+}
+.toDoList{
+    font-size: 30px;
+  font-family: "Sofia", sans-serif;
+}
+.form-input{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-label{
+     font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background:url("https://imgs.search.brave.com/nErQDtY-CRq_ovy1tNUaBK5pNkiSIaa8yPO98xQGEAg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQw/NTU4NDY0Ny9waG90/by90by1kby1saXN0/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz05czBrUFdocDUy/TW1TODBweW5tZ1Zv/VjU4OTh6ejYxb0xY/MzBoUTViUjQ4PQ");
+    background-size:cover;
+    background-repeat: repeat-x;
+}  
+
+#headin_title{
+    font-size: 480%;
+}
+.submit1{
+    display:flex;
+    justify-content: center;
+    
+}
+.submit {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #ffd819;
+    background: #ffd819;
+  }
+  .submit:hover {
+    background: #fff;
+    color: darkred;
+  }
+  footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f3e8d7;
+    align-items: flex-end;
+    opacity: 0.65;
+    bottom: -100px;
+    border-radius: 50px;
+  }
